@@ -21,7 +21,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  if hash[key] == hash[key]
+  if hash[key]
     key
   else
     nil
